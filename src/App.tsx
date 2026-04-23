@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <p>{variable}</p>
-      <button onClick={handleVariable}>Enviar</button>
+      <button onClick={handleVariable} className={contador%2==0? "boton1":"boton2"}>Enviar</button>
       <h2>Contador</h2>
       <p>{contador}</p>
       <p>{contador}</p>
